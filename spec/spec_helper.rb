@@ -10,7 +10,8 @@
 ## Copyright (C) 2013 Lta Akr
 
 EXERCICES_PATH = File.expand_path(File.join(File.dirname(__FILE__), '..', 'exos'))
-$: << EXERCICES_PATH
+CORRECTION_PATH = File.expand_path(File.join(File.dirname(__FILE__), '..', 'correction'))
+$: << EXERCICES_PATH << CORRECTION_PATH
 
 RSpec.configure do |config|
   # ## Mock Framework
