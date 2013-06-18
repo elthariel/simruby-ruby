@@ -17,7 +17,7 @@ Ordre des exercices
 * basic_spec.rb
 * so_class_spec.rb
 * modules_spec.rb
-* metaprog_spec.rb
+* advanced_spec.rb
 
 Comment executer les specs ?
 ----------------------------

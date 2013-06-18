@@ -64,7 +64,7 @@ describe 'Basics:' do
   end
 
   # Hint: 'def who_is_bigger(a, b, c)'
-  it 'tell me the bigger' do
+  it 'tells me the biggest' do
     who_is_bigger(84, 42, nil).should eq("nil detected")
     who_is_bigger(nil, 42, 21).should eq("nil detected")
     who_is_bigger(84, 42, 21).should eq("a is bigger")
@@ -88,7 +88,7 @@ describe 'Basics:' do
   # - false otherwise
   # Hint: Should be 2 lines (and can be one :)
   # Hint: google ruby array each
-  it 'find 42' do
+  it 'finds 42' do
     array_42([1, 2, 3, 4, 5, 6, 7 , 8, 9, 10]).should be_false
     array_42([1, 2, 3, 4, 5, 6, 7 , 8, 9, 42, 21, 10.5]).should be_true
   end

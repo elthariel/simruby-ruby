@@ -67,7 +67,7 @@ describe Geometry do
   end
 
   describe 'Detectors' do
-    it 'There are 3 detectors' do
+    example 'There are 2 detectors' do
       Geometry::LineDetector.is_a?(Module).should be_true
       Geometry::TriangleDetector.is_a?(Module).should be_true
       #Geometry::RectangleDetector.is_a?(Module).should be_true
