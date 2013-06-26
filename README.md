@@ -1,8 +1,8 @@
-SImRuby: Jour 1
-===============
+SImRuby: Jour 1 - Ruby
+======================
 
 Ce repository contient les specs de la premiere journee de la semaine
-immersive Ruby.
+immersive Ruby on Rails.
 
 Programme de la journee
 -----------------------
