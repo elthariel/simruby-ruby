@@ -90,6 +90,13 @@ describe Geometry do
         shape = Geometry::Shape.new([p1, p2])
         shape.line?.should be_true
       end
+
+      it 'detects if the points create a real line' do
+        p1 = Point.new(0, 0)
+        p2 = Point.new(0, 0)
+        shape = Geometry::Shape.new([p1, p2])
+        shape.line?.should be_false
+      end
     end
 
     describe Geometry::TriangleDetector do
