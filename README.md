@@ -22,8 +22,9 @@ Ordre des exercices
 Comment executer les specs ?
 ----------------------------
 
-    host $ cd /path/to/day1
-    host $ ln -s /path/to/my/exercices exos # ! Une seule fois !
+    host $ cd /vagrant/ruby
+    host $ mkdir exos # ! Une seule fois !
+    # Ensuite je cree et remplis basic.rb, so_class.rb, advanced.rb, ... et je teste si mes exos sont fonctionnels :
     host $ rspec # or `rspec -fd` or `rspec --help`
 
 Vous pouvez aussi executer seulement un seul fichier de spec
